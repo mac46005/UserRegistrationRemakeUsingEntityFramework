@@ -5,4 +5,24 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ConsoleHelper.ClassLib">
+      <HintPath>F:\PROGRAMMING\CSHARP\DLLs\net5.0\ConsoleHelper.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DataManipulation.ClassLib">
+      <HintPath>F:\PROGRAMMING\CSHARP\DLLs\net5.0\DataManipulation.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DesignPatterns.ClassLib">
+      <HintPath>F:\PROGRAMMING\CSHARP\DLLs\net5.0\DesignPatterns.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectModels.ClassLib">
+      <HintPath>F:\PROGRAMMING\CSHARP\DLLs\net5.0\ObjectModels.ClassLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
